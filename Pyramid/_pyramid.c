@@ -1,11 +1,13 @@
 #include <stdio.h>
 
-main()
+
+
+int main() 
 {
 
-    int n, s, l, i, b;
+    int i, n, s, l, b;
 
-    printf("Write a number: ");
+    printf("Enter a number: ");
     scanf("%d", &n);
 
     for(l=1; l<=n; l++)
@@ -14,7 +16,8 @@ main()
         printf(" ");
 
     for(s=1; s<=2*l-1; s++)
-    printf("*");
-    printf("\n");
+        printf("*");
+        printf("\n");
     }
+
 }
